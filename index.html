@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio :-)</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="js/app.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div id="intro">
+            <img id="udacity-logo" src="images/udacity.png" alt="Udacity logo">
+            <h1>Dominika Szukała</h1>
+            <h3>Front-end Dev wannabe :)</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#menu-about">About me</a></li>
+                <li><a href="#menu-work">Featured Work</a></li>
+            </ul>
+        </nav>
+        <picture>
+            <source srcset="images/Small/header-photo_small.jpg" media="(max-width: 400px)">
+            <source srcset="images/Medium/header-photo_medium.jpg" media="(max-width: 800px)">
+            <img class="header-photo" src="images/header-photo_large.jpg" alt="background photo">
+        </picture>
+    </header>
+    <section class="about-me">
+        <img id="portrait" src="images/my-photo.jpg" alt="Me eating ice cream">
+        <h2 id="menu-about">Hi there!</h2>
+        <p>My name is Dominika and I'm 28 years old. 5 Years ago I've graduated in Italian philology. Since then I was working in the e-commerce business, marketing, Internet adverts and Insurance. Basically, I was looking for an interesting career path. In November 2017 I've received the great opportunity and got the Google Udacity scholarship on the Front-End path. On February 2018 I've received the full Nanodegree Program. Since then I'm learning a lot of new things which make me happy and enjoy web development. Welcome to my site!</p>
+    </section>
+    <section class="projects-gallery">
+        <h2 id="menu-work">Featured Work</h2>
+        <div class="wrapper">
+            <div class="project">
+                <picture>
+                    <source srcset="images/Small/project1_small.jpg" media="(max-width: 400px)">
+                    <source srcset="images/Medium/project1_medium.jpg" media="(max-width: 800px)">
+                    <img id="first-project" class="project-photo" src="images/project1_large.jpg" alt="Project 1">
+                </picture>
+                <p class="name-odd">Project 1</p>
+            </div>
+            <div class="project">
+                <picture>
+                    <source srcset="images/Small/project2_small.jpg" media="(max-width: 400px)">
+                    <source srcset="images/Medium/project2_medium.jpg" media="(max-width: 800px)">
+                    <img id="second-project" class="project-photo" src="images/project2_large.jpg" alt="Project 2">
+                </picture>
+                <p>Project 2</p>
+            </div>
+            <div class="project">
+                <picture>
+                    <source srcset="images/Small/project3_small.jpg" media="(max-width: 400px)">
+                    <source srcset="images/Medium/project3_medium.jpg" media="(max-width: 800px)">
+                    <img id="third-project" class="project-photo" src="images/project3_large.jpg" alt="Project 3">
+                </picture>
+                <p class="name-odd">Project 3</p>
+            </div>
+            <div class="project">
+                <picture>
+                    <source srcset="images/Small/project4_small.jpg" media="(max-width: 400px)">
+                    <source srcset="images/Medium/project4_medium.jpg" media="(max-width: 800px)">
+                    <img id="fourth-project" class="project-photo" src="images/project4_large.jpg" alt="Project 4">
+                </picture>
+                <p>Project 4</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a href="https://www.linkedin.com/in/dominika-szuka%C5%82a-1240627a/"><span class="zocial-linkedin"></span></a>
+
+        <a href="mailto:dominika.szukala@gmail.com">
+                <span class="zocial-gmail"></span>
+            </a>
+        <a href="https://github.com/DominikaSzu">
+                <span class="zocial-github"></span>
+            </a>
+
+
+    </footer>
+</body>
+
+</html>
